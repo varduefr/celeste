@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-celeste-50: #f0f7fc;
+  --color-celeste-100: #dceef9;
+  --color-celeste-200: #bde0f5;
+  --color-celeste-300: #8ec9ee;
+  --color-celeste-400: #57abe3;
+  --color-celeste-500: #298fd3;
+  --color-celeste-600: #1c72b2;
+  --color-celeste-700: #185c90;
+  --color-celeste-800: #174e78;
+  --color-celeste-900: #184264;
+  --color-celeste-950: #102a42;
+}
+
+/* Custom smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Print layout for Take-Away Menu download/print */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+  header, footer, nav, .no-print, button:not(.print-allow) {
+    display: none !important;
+  }
+  .print-only-container {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}

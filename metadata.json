@@ -1,0 +1,7 @@
+{
+  "name": "Celeste - Take Away Uruguayo en Barcelona",
+  "description": "Restaurante take away de auténtica comida uruguaya en Barcelona (Carrer Torns 22). Pizzas al molde, fainá, empanadas artesanales, milanesas y menú del día casero y abundante.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
